@@ -2,32 +2,6 @@
 ___
 #### Цель: Создание сети и настройка основных параметров устройства
 ___
-*Проверяем настройки коммутатора по умолчанию*
-```
-Switch#show running-config
-Building configuration...
-
-Current configuration : 1080 bytes
-!
-version 15.0
-no service timestamps log datetime msec
-no service timestamps debug datetime msec
-no service password-encryption
-!
-hostname Switch
-!
-!
-!
-!
-!
-!
-spanning-tree mode pvst
-spanning-tree extend system-id
-!
-interface FastEthernet0/1
-!
-interface FastEthernet0/2
-```
 *Настраиваем базовые параметры коммутатора*
 ```
 Switch#configure terminal 
