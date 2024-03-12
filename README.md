@@ -52,7 +52,7 @@ S1(config-if)#no shutdown
 S1(config-if)#
 %LINK-5-CHANGED: Interface Vlan1, changed state to up
 ```
-*Ставим парроль для доступ к коммутатору через консоль*
+*Ставим пароль для доступ к коммутатору через консоль*
 ```
 S1#configure terminal
 Enter configuration commands, one per line.  End with CNTL/Z.
