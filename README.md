@@ -49,49 +49,6 @@ S1(config-line)#end
 
 *Вывод настроенной конфигурации коммутатора*
 ```
-DO NOT ENTER!
-
-
-User Access Verification
-
-Password: 
-
-S1>enable
-Password: 
-S1#conf
-S1#configure ter
-S1#configure terminal 
-Enter configuration commands, one per line.  End with CNTL/Z.
-S1(config)# copy running-config startup-config
-             ^
-% Invalid input detected at '^' marker.
-	
-S1(config)# copy running-config startup-config
-             ^
-% Invalid input detected at '^' marker.
-	
-S1(config)# copy running-config startup-config
-             ^
-% Invalid input detected at '^' marker.
-	
-S1(config)# copy running-config
-             ^
-% Invalid input detected at '^' marker.
-	
-S1(config)#co
-S1(config)#cop
-S1(config)#copy
-S1(config)#copy
-            ^
-% Invalid input detected at '^' marker.
-	
-S1(config)#S1(config)#S1(config)#
-S1(config)#
-S1(config)#ip default-gateway 192.168.1.1
-S1(config)#exit
-S1#
-%SYS-5-CONFIG_I: Configured from console by console
-
 S1#show run
 Building configuration...
 
