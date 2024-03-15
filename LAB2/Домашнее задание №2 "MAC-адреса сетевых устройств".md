@@ -4,3 +4,4 @@ ___
 ![alt text](https://github.com/Eliminir/OTUSLABS/blob/Labs/LAB2/1.JPG)
 
 #### *Таблица адресации*
+![alt text](https://github.com/Eliminir/OTUSLABS/blob/Labs/LAB2/2.JPG)
