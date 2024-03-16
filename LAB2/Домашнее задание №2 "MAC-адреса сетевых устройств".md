@@ -25,7 +25,7 @@ ___
 *Шаг 2. Настраиваем узлы ПК.*
 
 
-![alt text](https://github.com/Eliminir/OTUSLABS/blob/Labs/LAB2/3.JPG)
+![alt text](https://github.com/Eliminir/OTUSLABS/blob/Labs/LAB2/4.JPG)
 
 ### *Часть 2. Изучение таблицы МАС-адресов коммутатора*
 
