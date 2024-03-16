@@ -27,6 +27,16 @@ ___
 
 ![alt text](https://github.com/Eliminir/OTUSLABS/blob/Labs/LAB2/4.JPG)
 
+*Шаг 3. Выполняем инициализацию и перезагрузку коммутаторов*
+
+
+![alt text](https://github.com/Eliminir/OTUSLABS/blob/Labs/LAB2/5.JPG)
+
+*Шаг 4. Настраиваем базовые параметры каждого коммутатора*
+
+
+
+
 ### *Часть 2. Изучение таблицы МАС-адресов коммутатора*
 
 
