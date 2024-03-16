@@ -86,8 +86,18 @@ ___
 
 ![alt text](https://github.com/Eliminir/OTUSLABS/blob/Labs/LAB2/8.JPG)
 
+
 *Через 10 секунд вводим команду show mac address-table*
 
 ![alt text](https://github.com/Eliminir/OTUSLABS/blob/Labs/LAB2/7.JPG)
 
+*В таблице МАС-адресов видим, что MAC-адрес коммутатора S1 вновь отобразился*
+
+____
+
+*Шаг 4. С компьютера PC-B отправляем эхо-запросы устройствам в сети и просматриваем таблицу МАС-адресов коммутатора*
+
+*Из командной строки PC-B отправляем эхо-запросы на компьютер PC-A, а также коммутаторы S1 и S2*
+
+![alt text](https://github.com/Eliminir/OTUSLABS/blob/Labs/LAB2/9.JPG)
 
