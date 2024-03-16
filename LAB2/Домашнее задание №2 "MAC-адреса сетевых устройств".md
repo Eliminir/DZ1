@@ -86,5 +86,8 @@ ___
 
 ![alt text](https://github.com/Eliminir/OTUSLABS/blob/Labs/LAB2/8.JPG)
 
+*Через 10 секунд вводим команду show mac address-table*
+
+![alt text](https://github.com/Eliminir/OTUSLABS/blob/Labs/LAB2/7.JPG)
 
 
