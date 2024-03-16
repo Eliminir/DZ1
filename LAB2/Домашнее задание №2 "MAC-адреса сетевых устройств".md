@@ -79,6 +79,12 @@ b.	Вводим команду show mac address-table
 
 ![alt text](https://github.com/Eliminir/OTUSLABS/blob/Labs/LAB2/7.JPG)
 
-В таблице МАС-адресов видим только MAC-адрес коммутатора S1 который сосоставлен с портом Fa0/1
+В таблице МАС-адресов видим только MAC-адрес коммутатора S1 который сопоставлен с портом Fa0/1
+
+
+*Шаг 3. Очищаем таблицу МАС-адресов коммутатора S2 и снова отоброжаем таблицу МАС-адресов*
+
+![alt text](https://github.com/Eliminir/OTUSLABS/blob/Labs/LAB2/8.JPG)
+
 
 
