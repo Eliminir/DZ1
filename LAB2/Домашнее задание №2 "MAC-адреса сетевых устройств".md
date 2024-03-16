@@ -101,3 +101,12 @@ ____
 
 ![alt text](https://github.com/Eliminir/OTUSLABS/blob/Labs/LAB2/9.JPG)
 
+
+*Подключившись через консоль к коммутатору S2, вводим команду show mac address-table*
+
+
+![alt text](https://github.com/Eliminir/OTUSLABS/blob/Labs/LAB2/10.JPG)
+
+
+
+
