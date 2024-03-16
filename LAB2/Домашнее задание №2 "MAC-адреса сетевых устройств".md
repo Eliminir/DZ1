@@ -108,5 +108,12 @@ ____
 ![alt text](https://github.com/Eliminir/OTUSLABS/blob/Labs/LAB2/10.JPG)
 
 
+*На компьютере PC-B откройте командную строку и еще раз введите команду arp -a*
+
+![alt text](https://github.com/Eliminir/OTUSLABS/blob/Labs/LAB2/11.JPG)
+
+
+
+
 
 
