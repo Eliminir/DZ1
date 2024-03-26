@@ -5,4 +5,4 @@
 
 *Расчет подсетей по IPv4-адресу*
 ___
-![alt text](LAB3/1.JPG)
+![alt text](https://github.com/Eliminir/OTUSLABS/blob/Labs/LAB3/1.JPG)
