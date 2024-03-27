@@ -50,3 +50,13 @@ ___
 
  ![alt text](https://github.com/Eliminir/OTUSLABS/blob/Labs/LAB4/6.JPG)
  
+
+*Чтобы обеспечить соответствие локальных адресов канала индивидуальному адресу, вручную вводим локальные адреса канала на каждом интерфейсе Ethernet на R1*
+
+ ![alt text](https://github.com/Eliminir/OTUSLABS/blob/Labs/LAB4/7.JPG)
+ 
+ *Проверяем, что локальный адрес связи изменен на fe80::1*
+
+  ![alt text](https://github.com/Eliminir/OTUSLABS/blob/Labs/LAB4/8.JPG)
+
+ 
