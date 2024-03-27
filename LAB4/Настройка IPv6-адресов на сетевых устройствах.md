@@ -59,5 +59,18 @@ ___
 
   ![alt text](https://github.com/Eliminir/OTUSLABS/blob/Labs/LAB4/8.JPG)
 
- *Группы многоадресной рассылки интерфейса G0/0 FF02::1, FF02::1:FF00:1*
+ *Группы многоадресной рассылки интерфейса G0/0:  FF02::1, FF02::1:FF00:1*
+
+
+ *Шаг 2. Активируем IPv6-маршрутизацию на R1*
+
+ *В командной строке на PC-B вводим команду ipconfig, чтобы получить данные IPv6-адреса, назначенного интерфейсу ПК*
  
+ ![alt text](https://github.com/Eliminir/OTUSLABS/blob/Labs/LAB4/9.JPG)
+
+*Видим, что индивидуальный IPv6-адрес сетевой интерфейсной карте не назначен*
+
+*Активируем IPv6-маршрутизацию на R1 с помощью команды IPv6 unicast-routing*
+
+ ![alt text](https://github.com/Eliminir/OTUSLABS/blob/Labs/LAB4/10.JPG)
+
