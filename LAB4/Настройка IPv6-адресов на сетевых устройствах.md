@@ -59,4 +59,5 @@ ___
 
   ![alt text](https://github.com/Eliminir/OTUSLABS/blob/Labs/LAB4/8.JPG)
 
+ *Группы многоадресной рассылки интерфейса G0/0 FF02::1, FF02::1:FF00:1*
  
