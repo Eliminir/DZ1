@@ -1,9 +1,9 @@
-### Настройка IPv6-адресов на сетевых устройствах
+### *Настройка IPv6-адресов на сетевых устройствах*
 
-#### Топология
+#### *Топология*
 
 ![alt text](https://github.com/Eliminir/OTUSLABS/blob/Labs/LAB4/1.JPG)
 
-#### Таблица адресации
+#### *Таблица адресации*
 
 ![alt text](https://github.com/Eliminir/OTUSLABS/blob/Labs/LAB4/2.JPG)
