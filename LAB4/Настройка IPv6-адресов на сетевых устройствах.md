@@ -111,3 +111,8 @@ ___
 *Отправляем эхо-запрос на интерфейс управления S1 с PC-A*
 
 ![alt text](https://github.com/Eliminir/OTUSLABS/blob/Labs/LAB4/16.JPG)
+
+*Вводим команду tracert на PC-A, чтобы проверить наличие сквозного подключения к PC-B*
+
+![alt text](https://github.com/Eliminir/OTUSLABS/blob/Labs/LAB4/17.JPG)
+
