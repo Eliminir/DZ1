@@ -116,3 +116,12 @@ ___
 
 ![alt text](https://github.com/Eliminir/OTUSLABS/blob/Labs/LAB4/17.JPG)
 
+*С PC-B отправляем эхо-запрос на PC-A*
+
+![alt text](https://github.com/Eliminir/OTUSLABS/blob/Labs/LAB4/18.JPG)
+
+*С PC-B отправляем эхо-запрос на локальный адрес канала G0/0 на R1*
+
+![alt text](https://github.com/Eliminir/OTUSLABS/blob/Labs/LAB4/19.JPG)
+
+
