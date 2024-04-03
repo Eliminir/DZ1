@@ -76,5 +76,12 @@ ___
 
 *Активируем IPv6-маршрутизацию на R1 с помощью команды IPv6 unicast-routing*
 
+
+ ![alt text](https://github.com/Eliminir/OTUSLABS/blob/Labs/LAB4/10.JPG)
+ 
+
+*Снова вводим команду ipconfig на PC-B*
+
+ ![alt text](https://github.com/Eliminir/OTUSLABS/blob/Labs/LAB4/11.JPG)
  ![alt text](https://github.com/Eliminir/OTUSLABS/blob/Labs/LAB4/10.JPG)
 
