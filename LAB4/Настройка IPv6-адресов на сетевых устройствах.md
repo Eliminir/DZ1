@@ -104,3 +104,10 @@ ___
 
   ### *Часть 3. Проверка сквозного подключения*
 
+  *С PC-A отправим эхо-запрос на FE80::1. Это локальный адрес канала, назначенный G0/1 на R1*
+
+   ![alt text](https://github.com/Eliminir/OTUSLABS/blob/Labs/LAB4/15.JPG)
+
+*Отправляем эхо-запрос на интерфейс управления S1 с PC-A*
+
+![alt text](https://github.com/Eliminir/OTUSLABS/blob/Labs/LAB4/16.JPG)
