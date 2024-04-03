@@ -97,6 +97,11 @@ ___
 
   ![alt text](https://github.com/Eliminir/OTUSLABS/blob/Labs/LAB4/13.JPG)
 
+*Шаг 4. Назначаем компьютерам статические IPv6-адреса*
+
+ ![alt text](https://github.com/Eliminir/OTUSLABS/blob/Labs/LAB4/14.JPG)
+  
+
   *Шаг 4. Назначаем компьютерам статические IPv6-адреса*
   
   *Откройте окно Свойства Ethernet для каждого ПК и назначьте адресацию IPv6*
