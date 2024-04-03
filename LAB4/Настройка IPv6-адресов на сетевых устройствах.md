@@ -93,3 +93,7 @@ ___
   
  ![alt text](https://github.com/Eliminir/OTUSLABS/blob/Labs/LAB4/12.JPG)
 
+ *Проверим правильность назначения IPv6-адресов интерфейсу управления с помощью команды show ipv6 interface vlan1*
+
+  ![alt text](https://github.com/Eliminir/OTUSLABS/blob/Labs/LAB4/13.JPG)
+
