@@ -15,4 +15,12 @@
 
 ____
 
+### Часть 1. Настройка основных параметров устройств ###
 
+*Шаг 1. Создаем сеть согласно топологии*
+
+![alt text](https://github.com/Eliminir/OTUSLABS/blob/Labs/LAB5/2.JPG)
+
+*Шаг 2. Выполните инициализацию и перезагрузку маршрутизатора и коммутатора*
+
+![alt text](https://github.com/Eliminir/OTUSLABS/blob/Labs/LAB5/3.JPG)
