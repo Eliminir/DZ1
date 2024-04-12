@@ -66,7 +66,9 @@ ____
 
 ![alt text](https://github.com/Eliminir/OTUSLABS/blob/Labs/LAB5/7.JPG)
 ___
+
 *Часть 2. Настройка маршрутизатора для доступа по протоколу SSH*
+
 
 *Шаг 1. Настраиваем аутентификацию устройств*
 
@@ -75,4 +77,28 @@ ___
 *b.	Задаем домен для устройства*
 
 ![alt text](https://github.com/Eliminir/OTUSLABS/blob/Labs/LAB5/8.JPG)
+
+*Шаг 2. Создаем ключ шифрования с указанием его длины*
+
+![alt text](https://github.com/Eliminir/OTUSLABS/blob/Labs/LAB5/9.JPG)
+
+*Шаг 3. Создаем имя пользователя в локальной базе учетных записей*
+
+![alt text](https://github.com/Eliminir/OTUSLABS/blob/Labs/LAB5/10.JPG)
+
+*Шаг 4. Активируйем протокол SSH на линиях VTY*
+
+*a.	Активируйте протоколы Telnet и SSH на входящих линиях VTY*
+
+![alt text](https://github.com/Eliminir/OTUSLABS/blob/Labs/LAB5/11.JPG)
+
+*b.	Меняем способ входа в систему, теперь будет использоваться проверка пользователей по локальной базе учетных записей*
+
+![alt text](https://github.com/Eliminir/OTUSLABS/blob/Labs/LAB5/12.JPG)
+
+*Шаг 5. Сохраняем текущую конфигурацию в файл загрузочной конфигурации*
+
+![alt text](https://github.com/Eliminir/OTUSLABS/blob/Labs/LAB5/13.JPG)
+
+
 
