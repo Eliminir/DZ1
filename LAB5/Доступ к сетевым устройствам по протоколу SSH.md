@@ -141,4 +141,6 @@ ___
 
 *j.	Сохраняем текущую конфигурации в файл загрузочной конфигурации*
 
+![alt text](https://github.com/Eliminir/OTUSLABS/blob/Labs/LAB5/15.JPG)
 
+![alt text](https://github.com/Eliminir/OTUSLABS/blob/Labs/LAB5/16.JPG)
