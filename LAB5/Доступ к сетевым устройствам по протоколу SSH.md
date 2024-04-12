@@ -49,3 +49,13 @@ ____
 
 ![alt text](https://github.com/Eliminir/OTUSLABS/blob/Labs/LAB5/4.JPG)
 
+
+*Шаг 4. Настраиваем компьютер PC-A*
+
+*a.	Настраиваем для PC-A IP-адрес и маску подсети*
+
+![alt text](https://github.com/Eliminir/OTUSLABS/blob/Labs/LAB5/5.JPG)
+
+*b.	Настраиваем для PC-A шлюз по умолчанию*
+
+![alt text](https://github.com/Eliminir/OTUSLABS/blob/Labs/LAB5/6.JPG)
