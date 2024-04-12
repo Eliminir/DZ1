@@ -110,5 +110,9 @@ ___
 
 ![alt text](https://github.com/Eliminir/OTUSLABS/blob/Labs/LAB5/13.JPG)
 
+*Шаг 6. Устанавливаем соединение с маршрутизатором по протоколу SSH*
 
+*a.	Запускаем Tera Term с PC-A*
+
+![alt text](https://github.com/Eliminir/OTUSLABS/blob/Labs/LAB5/14.JPG)
 
