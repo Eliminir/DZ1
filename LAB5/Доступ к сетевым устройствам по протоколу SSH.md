@@ -170,3 +170,22 @@ ___
 
 ____
 ### Часть 4. Настройка протокола SSH с использованием интерфейса командной строки (CLI) коммутатора
+
+*Шаг 1. Смотрим доступные параметры для клиента SSH в Cisco IOS*
+
+
+![alt text](https://github.com/Eliminir/OTUSLABS/blob/Labs/LAB5/19.JPG)
+
+*Шаг 2. Устанавливаем с коммутатора S1 соединение с маршрутизатором R1 по протоколу SSH*
+
+*a.	Чтобы подключиться к маршрутизатору R1 по протоколу SSH, вводим команду –l admin*
+
+![alt text](https://github.com/Eliminir/OTUSLABS/blob/Labs/LAB5/20.JPG)
+
+*b.	Чтобы вернуться к коммутатору S1, не закрывая сеанс SSH с маршрутизатором R1, нажимаем комбинацию клавиш Ctrl+Shift+6. Отпустите клавиши Ctrl+Shift+6 и нажимаем x*
+
+![alt text](https://github.com/Eliminir/OTUSLABS/blob/Labs/LAB5/21.JPG)
+
+
+
+
