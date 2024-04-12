@@ -59,3 +59,9 @@ ____
 *b.	Настраиваем для PC-A шлюз по умолчанию*
 
 ![alt text](https://github.com/Eliminir/OTUSLABS/blob/Labs/LAB5/6.JPG)
+
+*Шаг 5. Проверяем подключение к сети*
+
+*Посылаем с PC-A команду Ping на маршрутизатор R1*
+
+![alt text](https://github.com/Eliminir/OTUSLABS/blob/Labs/LAB5/7.JPG)
