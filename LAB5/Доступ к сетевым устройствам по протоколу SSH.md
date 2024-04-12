@@ -65,3 +65,14 @@ ____
 *Посылаем с PC-A команду Ping на маршрутизатор R1*
 
 ![alt text](https://github.com/Eliminir/OTUSLABS/blob/Labs/LAB5/7.JPG)
+___
+*Часть 2. Настройка маршрутизатора для доступа по протоколу SSH*
+
+*Шаг 1. Настраиваем аутентификацию устройств*
+
+*a.	Задаем имя устройства*
+
+*b.	Задаем домен для устройства*
+
+![alt text](https://github.com/Eliminir/OTUSLABS/blob/Labs/LAB5/8.JPG)
+
