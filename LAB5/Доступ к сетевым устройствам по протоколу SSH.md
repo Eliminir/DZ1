@@ -187,5 +187,11 @@ ____
 ![alt text](https://github.com/Eliminir/OTUSLABS/blob/Labs/LAB5/21.JPG)
 
 
+*c.	Чтобы вернуться к сеансу SSH на R1, нажимаем клавишу Enter в пустой строке интерфейса командной строки. Чтобы увидеть окно командной строки маршрутизатора, нажмимаем клавишу Enter еще раз*
+
+
+![alt text](https://github.com/Eliminir/OTUSLABS/blob/Labs/LAB5/22.JPG)
+
+
 
 
