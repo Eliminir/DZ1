@@ -66,3 +66,25 @@ ____
 Настраиваем G0/0/1 на R2 с первым IP-адресом подсети C, рассчитанным ранее
 
 ![alt text](https://github.com/Eliminir/OTUSLABS/blob/Labs/LAB8/12.JPG)
+
+Настраиваем интерфейс G0/0/0 для каждого маршрутизатора на основе приведенной выше таблицы IP-адресации
+
+![alt text](https://github.com/Eliminir/OTUSLABS/blob/Labs/LAB8/13.JPG)
+
+![alt text](https://github.com/Eliminir/OTUSLABS/blob/Labs/LAB8/14.JPG)
+
+Настраиваем маршрут по умолчанию на каждом маршрутизаторе, указываемом на IP-адрес G0/0/0 на другом маршрутизаторе
+
+![alt text](https://github.com/Eliminir/OTUSLABS/blob/Labs/LAB8/15.JPG)
+
+![alt text](https://github.com/Eliminir/OTUSLABS/blob/Labs/LAB8/16.JPG)
+
+Проверяем, что статическая маршрутизация работает с помощью пинга до адреса G0/0/1 R2 от R1
+
+![alt text](https://github.com/Eliminir/OTUSLABS/blob/Labs/LAB8/17.JPG)
+
+Сохраняем текущую конфигурацию в файл загрузочной конфигурации
+
+![alt text](https://github.com/Eliminir/OTUSLABS/blob/Labs/LAB8/18.JPG)
+
+Шаг 6.	Настраиваем базовые параметры каждого коммутатора
