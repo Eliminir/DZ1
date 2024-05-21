@@ -113,3 +113,12 @@ d.	Назначаем все неиспользуемые порты S1 VLAN Par
 
 ![alt text](https://github.com/Eliminir/OTUSLABS/blob/Labs/LAB8/25.JPG)
 
+Шаг 8.	Назначаем сети VLAN соответствующим интерфейсам коммутатора
+
+Назначаем используемые порты соответствующей VLAN (указанной в таблице VLAN выше) и настраиваем их для режима статического доступа
+
+![alt text](https://github.com/Eliminir/OTUSLABS/blob/Labs/LAB8/26.JPG)
+
+b.	Убеждаемся, что VLAN назначены на правильные интерфейсы
+
+![alt text](https://github.com/Eliminir/OTUSLABS/blob/Labs/LAB8/27.JPG)
