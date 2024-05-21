@@ -65,3 +65,4 @@ ____
 
 Настраиваем G0/0/1 на R2 с первым IP-адресом подсети C, рассчитанным ранее
 
+![alt text](https://github.com/Eliminir/OTUSLABS/blob/Labs/LAB8/12.JPG)
