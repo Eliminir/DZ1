@@ -122,3 +122,23 @@ d.	Назначаем все неиспользуемые порты S1 VLAN Par
 b.	Убеждаемся, что VLAN назначены на правильные интерфейсы
 
 ![alt text](https://github.com/Eliminir/OTUSLABS/blob/Labs/LAB8/27.JPG)
+
+Интерфейс F0/5 находиться в VLAN 1 потому, что это VLAN по умолчанию а сам интерфейс не был настроен
+
+Шаг 9.	Вручную настраиваем интерфейс S1 F0/5 в качестве транка 802.1Q
+
+a.	Изменяем режим порта коммутатора, чтобы принудительно создать магистральный канал
+
+![alt text](https://github.com/Eliminir/OTUSLABS/blob/Labs/LAB8/28.JPG)
+
+b.	В рамках конфигурации транка  устанавливаем для native VLAN значение 1000
+
+![alt text](https://github.com/Eliminir/OTUSLABS/blob/Labs/LAB8/29.JPG)
+
+c.	В качестве другой части конфигурации магистрали указываем, что VLAN 100, 200 и 1000 могут проходить по транку
+
+![alt text](https://github.com/Eliminir/OTUSLABS/blob/Labs/LAB8/30.JPG)
+
+d.	Сохраняем текущую конфигурацию в файл загрузочной конфигурации
+
+![alt text](https://github.com/Eliminir/OTUSLABS/blob/Labs/LAB8/31.JPG)
