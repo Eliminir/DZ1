@@ -88,3 +88,21 @@ ____
 ![alt text](https://github.com/Eliminir/OTUSLABS/blob/Labs/LAB8/18.JPG)
 
 Шаг 6.	Настраиваем базовые параметры каждого коммутатора
+
+![alt text](https://github.com/Eliminir/OTUSLABS/blob/Labs/LAB8/19.JPG)
+
+![alt text](https://github.com/Eliminir/OTUSLABS/blob/Labs/LAB8/20.JPG)
+
+Шаг 7.	Создаем сети VLAN на коммутаторе S1
+
+a.	Создаем необходимые VLAN на коммутаторе 1 и присвойте им имена из приведенной выше таблицы
+
+![alt text](https://github.com/Eliminir/OTUSLABS/blob/Labs/LAB8/21.JPG)
+
+b.	Настраиваем и активируем интерфейс управления на S1 (VLAN 200), используя второй IP-адрес из подсети, рассчитанный ранее. Устанавливаем шлюз по умолчанию на S1
+
+![alt text](https://github.com/Eliminir/OTUSLABS/blob/Labs/LAB8/22.JPG)
+
+c.	Настраиваем и активируем интерфейс управления на S2 (VLAN 1), используя второй IP-адрес из подсети, рассчитанный ранее. Устанавливаем шлюз по умолчанию на S2
+
+![alt text](https://github.com/Eliminir/OTUSLABS/blob/Labs/LAB8/23.JPG)
