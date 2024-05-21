@@ -44,3 +44,19 @@ ____
 
 ![alt text](https://github.com/Eliminir/OTUSLABS/blob/Labs/LAB8/8.JPG)
 
+Шаг 4.	Настройка маршрутизации между сетями VLAN на маршрутизаторе R1
+
+Активируем интерфейс G0/0/1 на маршрутизаторе
+
+![alt text](https://github.com/Eliminir/OTUSLABS/blob/Labs/LAB8/9.JPG)
+
+
+Настраиваем подинтерфейсы для каждой VLAN в соответствии с таблицей IP-адресации
+Все субинтерфейсы используют инкапсуляцию 802.1Q и назначаются первый полезный адрес из вычисленного пула IP-адресов
+Включаем описание для каждого подинтерфейса
+
+![alt text](https://github.com/Eliminir/OTUSLABS/blob/Labs/LAB8/10.JPG)
+
+Проверяем, что вспомогательные интерфейсы работают
+
+![alt text](https://github.com/Eliminir/OTUSLABS/blob/Labs/LAB8/11.JPG)
