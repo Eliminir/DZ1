@@ -152,3 +152,28 @@ e.	Проверяем состояние транка
 Если бы пк не был подключен к сети с помощью DHCP, он бы автоматически себе бы сам настроийл IP в диапозоне 169.254.x.x
 
 ## Часть 2.	Настройка и проверка двух серверов DHCPv4 на R1
+
+Шаг 1.	Настраиваем R1 с пулами DHCPv4 для двух поддерживаемых подсетей
+
+a.	Исключаем первые пять используемых адресов из каждого пула адресов
+
+![alt text](https://github.com/Eliminir/OTUSLABS/blob/Labs/LAB8/33.JPG)
+
+b.	Создаем пул DHCP
+
+![alt text](https://github.com/Eliminir/OTUSLABS/blob/Labs/LAB8/34.JPG)
+
+c.	Указываем сеть, поддерживающую этот DHCP-сервер
+
+![alt text](https://github.com/Eliminir/OTUSLABS/blob/Labs/LAB8/35.JPG)
+
+d.	В качестве имени домена указываем CCNA-lab.com
+
+![alt text](https://github.com/Eliminir/OTUSLABS/blob/Labs/LAB8/36.JPG)
+
+e.	Настраиваем соответствующий шлюз по умолчанию для каждого пула DHCP
+
+![alt text](https://github.com/Eliminir/OTUSLABS/blob/Labs/LAB8/37.JPG)
+
+f.	Настраиваем время аренды на 2 дня 12 часов и 30 минут
+
