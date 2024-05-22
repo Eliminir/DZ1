@@ -238,4 +238,11 @@ e.	Выполняем команду show ip dhcp server statistics для пр�
 ![alt text](https://github.com/Eliminir/OTUSLABS/blob/Labs/LAB8/50.JPG)
 
 
+## Реализация DHCPv6
 
+![alt text](https://github.com/Eliminir/OTUSLABS/blob/Labs/LAB8/51.JPG)
+
+
+Базовые настройки и прочее мы делали ранее так что пропускаем данные шаги)
+
+## Часть 2. Проверка назначения адреса SLAAC от R1
