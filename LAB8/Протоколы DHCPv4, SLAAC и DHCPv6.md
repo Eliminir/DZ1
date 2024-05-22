@@ -197,9 +197,9 @@ b.	После завершения процесса обновления вып�
 
 c.	Проверяем подключение с помощью пинга IP-адреса интерфейса R0 G0/0/1
 
-![alt text](https://github.com/Eliminir/OTUSLABS/blob/Labs/LAB8/41.JPG)
-
 ![alt text](https://github.com/Eliminir/OTUSLABS/blob/Labs/LAB8/42.JPG)
 
 ![alt text](https://github.com/Eliminir/OTUSLABS/blob/Labs/LAB8/43.JPG)
+
+![alt text](https://github.com/Eliminir/OTUSLABS/blob/Labs/LAB8/44.JPG)
 
