@@ -13,4 +13,11 @@
 
 ![alt text](https://github.com/Eliminir/OTUSLABS/blob/Labs/LAB12/3.JPG)
 
+Шаг 2. Производим базовую настройку маршрутизаторов
+
+![alt text](https://github.com/Eliminir/OTUSLABS/blob/Labs/LAB12/4.JPG)
+
+![alt text](https://github.com/Eliminir/OTUSLABS/blob/Labs/LAB12/5.JPG)
+
+
 
