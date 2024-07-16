@@ -20,4 +20,10 @@
 ![alt text](https://github.com/Eliminir/OTUSLABS/blob/Labs/LAB12/5.JPG)
 
 
+Шаг 3. Настраиваем базовые параметры каждого коммутатора
 
+![alt text](https://github.com/Eliminir/OTUSLABS/blob/Labs/LAB12/6.JPG)
+
+![alt text](https://github.com/Eliminir/OTUSLABS/blob/Labs/LAB12/7.JPG)
+
+![alt text](https://github.com/Eliminir/OTUSLABS/blob/Labs/LAB12/8.JPG)
