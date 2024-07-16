@@ -5,7 +5,7 @@
 
 ![alt text](https://github.com/Eliminir/OTUSLABS/blob/Labs/LAB12/2.JPG)
 
-![alt text](https://github.com/Eliminir/OTUSLABS/blob/Labs/LAB12/4.JPG)
+
 
 ## Часть 1. Создание сети и настройка основных параметров устройства
 
