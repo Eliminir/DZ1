@@ -96,3 +96,67 @@ b.	С PC-A, запускаем эхо-запрос интерфейса Lo1 (209
     226:1 192.168.1. 3:1 209.165.200. 1:1 209.165.200. 1:1
     Total number of translations: 4
 
+c.	Обратите внимание, что предыдущая трансляция для PC-B все еще находится в таблице. Из S1, эхо-запрос интерфейса Lo1 (209.165.200.1) на R2. Если эхо-запрос не прошел, выполните отладку. На R1 отобразите таблицу NAT на R1 с помощью команды show ip nat translations.
+      
+    R1# show ip nat translations
+    Pro Inside global Inside local Outside local Outside global
+    --- 209.165.200.227 192.168.1.2 --- ---
+    --- 209.165.200.226 192.168.1.3 --- ---
+    --- 209.165.200.228 192.168.1.11 --- ---
+    226:1 192.168.1. 3:1 209.165.200. 1:1 209.165.200. 1:1
+    228:0 192.168.1. 11:0 209.165.200. 1:0 209.165.200. 1:0 209.165.200. 1:0
+    Total number of translations: 5
+    
+d.	Теперь запускаем пинг R2 Lo1 из S2. На этот раз перевод завершается неудачей, и мы получаем эти сообщения на консоли R1:
+
+    Sep 23 15:43:55.562: %IOSXE-6-PLATFORM: R0/0: cpp_cp: QFP:0.0 Thread:000 TS:00000001473688385900 %NAT-6-ADDR_ALLOC_FAILURE: Address allocation failed; pool 1 may be exhausted [2]
+
+
+f.	Учитывая, что пул ограничен тремя адресами, NAT для пула адресов недостаточно для нашего приложения. Очищаем преобразование NAT и статистику, и переходим к PAT.
+
+    R1# clear ip nat translation * 
+
+![alt text](https://github.com/Eliminir/OTUSLABS/blob/Labs/LAB12/14.JPG)
+
+
+## Часть 3. Настройка и проверка PAT для IPv4.
+
+В части 3 необходимо настроить замену NAT на PAT в пул адресов, а затем на PAT с помощью интерфейса.
+
+Шаг 1. Удаляем команду преобразования на R1.
+
+    R1(config)# no ip nat inside source list 1 pool PUBLIC_ACCESS
+
+![alt text](https://github.com/Eliminir/OTUSLABS/blob/Labs/LAB12/15.JPG)
+
+Шаг 2. Добавляем команду PAT на R1 
+
+    R1(config)# ip nat inside source list 1 pool PUBLIC_ACCESS overload
+
+![alt text](https://github.com/Eliminir/OTUSLABS/blob/Labs/LAB12/16.JPG)
+
+Шаг 3. Тестируем и проверяем конфигурацию
+
+    R1# show ip nat translations
+    Pro Inside global Inside local Outside local Outside global
+    226:1 192.168.1. 3:1 209.165.200. 1:1 209.165.200. 1:1
+    Total number of translations: 1#
+    
+Вопросы:
+
+Во что был транслирован внутренний локальный адрес PC-B?
+
+209.165.200.226
+ 
+Какой тип адреса NAT является переведенным адресом?
+
+inside
+ 
+Чем отличаются выходные данные команды show ip nat translations из упражнения NAT?
+
+translation между insade и outside адресами в списке нет
+
+
+
+
+
