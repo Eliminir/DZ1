@@ -157,6 +157,49 @@ inside
 translation между insade и outside адресами в списке нет
 
 
+b.	С PC-A, запускаем эхо-запрос интерфейса Lo1 (209.165.200.1) на R2. На R1 отобразите таблицу NAT на R1 с помощью команды show ip nat translations.
+
+    R1# show ip nat translations
+    Pro Inside global Inside local Outside local Outside global
+    226:1 192.168.1. 2:1 209.165.200. 1:1 209.165.200. 1:1
+    Total number of translations: 1
+    
+![alt text](https://github.com/Eliminir/OTUSLABS/blob/Labs/LAB12/17.JPG)
+
+![alt text](https://github.com/Eliminir/OTUSLABS/blob/Labs/LAB12/18.JPG)
+
+
+c.	Генерируем трафик с нескольких устройств для наблюдения PAT. На PC-A и PC-B используйте параметр -t с командой ping, чтобы отправить безостановочный ping на интерфейс Lo1 R2 (ping -t 209.165.200.1), затем вернитесь к R1 и выполните команду show ip nat translations:
+
+    R1# show ip nat translations
+    Pro Inside global Inside local Outside local Outside global
+    icmp 209.165.200.226:1 192.168.1.2:1 209.165.200.1:1 209.165.200.1:1 
+    226:2 192.168.1. 3:1 209.165.200. 1:1 209.165.200. 1:2 
+    Total number of translations: 2 
+
+Как маршрутизатор отслеживает, куда идут ответы? 
+
+он присваивает уникальные номера портов
+
+d.	PAT в пул является очень эффективным решением для малых и средних организаций. Тем не менее есть неиспользуемые адреса IPv4, задействованные в этом сценарии. Мы перейдем к PAT с перегрузкой интерфейса, чтобы устранить эту трату IPv4 адресов. Очищаем трансляции и статистику:
+
+    R1# clear ip nat translation * 
+    R1# clear ip nat statistics
+
+Шаг 4. На R1 удаляем команды преобразования nat poo
+
+![alt text](https://github.com/Eliminir/OTUSLABS/blob/Labs/LAB12/19.JPG)
+
+Шаг 5. Добавляем команду PAT overload, указав внешний интерфейс.
+
+![alt text](https://github.com/Eliminir/OTUSLABS/blob/Labs/LAB12/20.JPG)
+
+
+
+
+
+
+
 
 
 
