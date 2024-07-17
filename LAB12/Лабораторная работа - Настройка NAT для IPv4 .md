@@ -45,5 +45,36 @@ b.	Создаем пул NAT и указываем ему имя и диапаз
 
 ![alt text](https://github.com/Eliminir/OTUSLABS/blob/Labs/LAB12/10.JPG)
 
+c.	Настраиваем перевод, связывая ACL и пул с процессом преобразования.
+
+    R1(config)# ip nat inside source list 1 pool PUBLIC_ACCESS 
+
+![alt text](https://github.com/Eliminir/OTUSLABS/blob/Labs/LAB12/11.JPG)
+
+d.	Задаем внутренний (inside) интерфейс.
+
+    R1(config)# interface g0/0/1
+    R1(config-if)# ip nat inside
+
+![alt text](https://github.com/Eliminir/OTUSLABS/blob/Labs/LAB12/12.JPG)
+
+e.	Определяем внешний (outside) интерфейс.
+        
+    R1(config)# interface g0/0/0
+    R1(config-if)# ip nat outside
+
+![alt text](https://github.com/Eliminir/OTUSLABS/blob/Labs/LAB12/13.JPG)
+
+Шаг 2. Проверьте и проверьте конфигурацию. 
+
+a.	С PC-B,  запускаем эхо-запрос интерфейса Lo1 (209.165.200.1) на R2. Если эхо-запрос не прошел, выполняем процесс поиска и устранения неполадок. На R1 отоброжаем таблицу NAT на R1 с помощью команды show ip nat translations.
+
+    R1# show ip nat translations
+    Pro Inside global Inside local Outside local Outside global
+    --- 209.165.200.226 192.168.1.3 --- --- 
+    226:1 192.168.1. 3:1 209.165.200. 1:1 209.165.200. 1:1 
+    Total number of translations: 2
+
+![alt text](https://github.com/Eliminir/OTUSLABS/blob/Labs/LAB12/14.JPG)
 
 
