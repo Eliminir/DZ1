@@ -1,5 +1,5 @@
 
-## Лабораторная работа - Настройка NAT для IPv4
+## Лабораторная работа - Настройка NAT для IPv4 :space_invader: :space_invader: :space_invader:
 
 ![alt text](https://github.com/Eliminir/OTUSLABS/blob/Labs/LAB12/1.JPG)
 
