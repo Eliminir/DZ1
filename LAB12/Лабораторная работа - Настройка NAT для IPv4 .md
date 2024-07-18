@@ -85,24 +85,11 @@ Inside
 
 b.	С PC-A, запускаем эхо-запрос интерфейса Lo1 (209.165.200.1) на R2. Если эхо-запрос не прошел, выполните отладку. На R1 отобразите таблицу NAT на R1 с помощью команды show ip nat translations.
 
-    R1# show ip nat translations 
-    Pro Inside global Inside local Outside local Outside global
-    --- 209.165.200.227 192.168.1.2 --- ---
-    --- 209.165.200.226 192.168.1.3 --- ---
-    227:1 192.168.1. 2:1 209.165.200. 1:1 209.165.200. 1:1
-    226:1 192.168.1. 3:1 209.165.200. 1:1 209.165.200. 1:1
-    Total number of translations: 4
+  ![alt text](https://github.com/Eliminir/OTUSLABS/blob/Labs/LAB12/22.JPG)
 
 c.	Обратите внимание, что предыдущая трансляция для PC-B все еще находится в таблице. Из S1, эхо-запрос интерфейса Lo1 (209.165.200.1) на R2. Если эхо-запрос не прошел, выполните отладку. На R1 отобразите таблицу NAT на R1 с помощью команды show ip nat translations.
       
-    R1# show ip nat translations
-    Pro Inside global Inside local Outside local Outside global
-    --- 209.165.200.227 192.168.1.2 --- ---
-    --- 209.165.200.226 192.168.1.3 --- ---
-    --- 209.165.200.228 192.168.1.11 --- ---
-    226:1 192.168.1. 3:1 209.165.200. 1:1 209.165.200. 1:1
-    228:0 192.168.1. 11:0 209.165.200. 1:0 209.165.200. 1:0 209.165.200. 1:0
-    Total number of translations: 5
+   ![alt text](https://github.com/Eliminir/OTUSLABS/blob/Labs/LAB12/23.JPG)
     
 d.	Теперь запускаем пинг R2 Lo1 из S2. На этот раз перевод завершается неудачей, и мы получаем эти сообщения на консоли R1:
 
@@ -134,10 +121,7 @@ f.	Учитывая, что пул ограничен тремя адресам�
 
 Шаг 3. Тестируем и проверяем конфигурацию
 
-    R1# show ip nat translations
-    Pro Inside global Inside local Outside local Outside global
-    226:1 192.168.1. 3:1 209.165.200. 1:1 209.165.200. 1:1
-    Total number of translations: 1#
+  ![alt text](https://github.com/Eliminir/OTUSLABS/blob/Labs/LAB12/24.JPG)
     
 Вопросы:
 
@@ -156,23 +140,13 @@ translation между insade и outside адресами в списке нет
 
 b.	С PC-A, запускаем эхо-запрос интерфейса Lo1 (209.165.200.1) на R2. На R1 отобразите таблицу NAT на R1 с помощью команды show ip nat translations.
 
-    R1# show ip nat translations
-    Pro Inside global Inside local Outside local Outside global
-    226:1 192.168.1. 2:1 209.165.200. 1:1 209.165.200. 1:1
-    Total number of translations: 1
+![alt text](https://github.com/Eliminir/OTUSLABS/blob/Labs/LAB12/25.JPG)
     
-![alt text](https://github.com/Eliminir/OTUSLABS/blob/Labs/LAB12/17.JPG)
-
-![alt text](https://github.com/Eliminir/OTUSLABS/blob/Labs/LAB12/18.JPG)
 
 
 c.	Генерируем трафик с нескольких устройств для наблюдения PAT. На PC-A и PC-B используйте параметр -t с командой ping, чтобы отправить безостановочный ping на интерфейс Lo1 R2 (ping -t 209.165.200.1), затем вернитесь к R1 и выполните команду show ip nat translations:
 
-    R1# show ip nat translations
-    Pro Inside global Inside local Outside local Outside global
-    icmp 209.165.200.226:1 192.168.1.2:1 209.165.200.1:1 209.165.200.1:1 
-    226:2 192.168.1. 3:1 209.165.200. 1:1 209.165.200. 1:2 
-    Total number of translations: 2 
+![alt text](https://github.com/Eliminir/OTUSLABS/blob/Labs/LAB12/26.JPG)
 
 Как маршрутизатор отслеживает, куда идут ответы? 
 
@@ -183,7 +157,7 @@ d.	PAT в пул является очень эффективным решени
     R1# clear ip nat translation * 
     R1# clear ip nat statistics
 
-Шаг 4. На R1 удаляем команды преобразования nat poo
+Шаг 4. На R1 удаляем команды преобразования nat pool
 
 ![alt text](https://github.com/Eliminir/OTUSLABS/blob/Labs/LAB12/19.JPG)
 
