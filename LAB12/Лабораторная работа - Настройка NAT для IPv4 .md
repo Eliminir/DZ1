@@ -69,11 +69,8 @@ e.	Определяем внешний (outside) интерфейс.
 
 a.	С PC-B,  запускаем эхо-запрос интерфейса Lo1 (209.165.200.1) на R2. Если эхо-запрос не прошел, выполняем процесс поиска и устранения неполадок. На R1 отоброжаем таблицу NAT на R1 с помощью команды show ip nat translations.
 
-    R1# show ip nat translations
-    Pro Inside global Inside local Outside local Outside global
-    --- 209.165.200.226 192.168.1.3 --- --- 
-    226:1 192.168.1. 3:1 209.165.200. 1:1 209.165.200. 1:1 
-    Total number of translations: 2
+![alt text](https://github.com/Eliminir/OTUSLABS/blob/Labs/LAB12/21.JPG)
+
 
 
 
